@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 폰트 리스트 */
+/* hbios 폰트 */
+@font-face {
+  font-family: "hbios-sys";
+  src: url("../asset/font/HBIOS-SYS.ttf");
+}
+
+/* neo 둥근모 pro */
+@font-face {
+  font-family: "neodunggeunmopro";
+  src: url("../asset/font/NeoDunggeunmoPro.ttf");
+}
+
+/* hbios-sys 폰트 템플릿 */
+.hb-font{
+  font-family: "hbios-sys";
+}
+
+.neodungg-font{
+  font-family: "neodunggeunmopro";
+}
+
+/* 버튼 */
+.b1 {
+  position: absolute;
+  bottom: 100px;
+  font-size: 30px;
+  font-family: "hbios-sys";
+  border: 0;
+  text-decoration: none;
+  color: #fe1a56;
+}
+.b2 {
+  position: absolute;
+  bottom: 100px;
+  font-size: 30px;
+  font-family: "hbios-sys";
+  border: 0;
+  text-decoration: none;
+  color: #fe1a56;
+}
